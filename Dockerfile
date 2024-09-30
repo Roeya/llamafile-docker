@@ -46,4 +46,4 @@ EXPOSE 8080
 ENTRYPOINT ["/bin/sh", "/usr/src/app/llamafile"]
 
 # Set default command.
-CMD ["--server", "--host", "0.0.0.0", "-m", "/model"]
+CMD ["--server", "--host", "0.0.0.0", "-m", "/model", "-ngl", "9999"]
